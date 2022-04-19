@@ -1,12 +1,11 @@
 <template>
   <div>
-    {{ data }}
-    <NuxtWelcome />
+    <cat-image-gallery :images="images" />
   </div>
 </template>
 
 <script setup lang="ts">
 const client = useSupabaseClient()
 
-const { data } = await useAsyncData('images', async () => client.from('images').select('*').order('created_at'), { transform: result => result.body })
+const { data: images } = await useAsyncData('images', async () => client.from('images').select('*').order('created_at'), { transform: result => result.body })
 </script>
