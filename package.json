@@ -6,8 +6,8 @@
     "start": "node .output/server/index.mjs"
   },
   "devDependencies": {
-    "@nuxtjs/supabase": "^0.1.8",
-    "@nuxtjs/tailwindcss": "^5.0.2",
-    "nuxt3": "latest"
+    "@nuxtjs/supabase": "^0.1.9",
+    "@nuxtjs/tailwindcss": "^5.0.3",
+    "nuxt": "3.0.0-rc.1"
   }
 }
