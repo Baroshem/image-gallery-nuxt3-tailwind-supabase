@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "bundledDependencies": [
+    "h3",
+    "unenv",
+    "node-fetch",
+    "destr",
+    "hookable",
+    "unstorage",
+    "@netlify/functions",
+    "defu",
+    "ufo",
+    "radix3",
+    "ohmyfetch",
+    "ohash",
+    "scule",
+    "cookie-es",
+    "fetch-blob",
+    "formdata-polyfill",
+    "data-uri-to-buffer",
+    "is-promise",
+    "node-domexception",
+    "web-streams-polyfill"
+  ]
+}
